@@ -1,4 +1,9 @@
+// pe10.c -- calculate the tax
 #include <stdio.h>
+#define S 17850
+#define HH 23900
+#define MJ 29750
+#define MS 14875
 int main(void)
 {
 	int i;
@@ -12,13 +17,13 @@ int main(void)
 		scanf("%d", &income);
 		switch (i)
 		{
-		case 1: tax = 17850*.15+(income-17850)*.28;
+		case 1: tax = S*.15+(income-S)*.28;
 			break;
-		case 2: tax = 23900*.15+(income-23900)*.28;
+		case 2: tax = HH*.15+(income-HH)*.28;
 			break;
-		case 3: tax = 29750*.15+(income-29750)*.28;
+		case 3: tax = MJ*.15+(income-MJ)*.28;
 			break;
-		case 4: tax = 14875*.15+(income-14875)*.28;
+		case 4: tax = MS*.15+(income-MS)*.28;
 			break;
 		}
 
