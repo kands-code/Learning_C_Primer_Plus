@@ -17,13 +17,25 @@ int main(void)
 		scanf("%d", &income);
 		switch (i)
 		{
-		case 1: tax = S*.15+(income-S)*.28;
+		case 1: if(income >= S)
+				tax = S*.15+(income-S)*.28;
+			else tax = income*.15;
+
 			break;
-		case 2: tax = HH*.15+(income-HH)*.28;
+		case 2: if(income >= HH)
+				tax = HH*.15+(income-HH)*.28;
+			else tax = income*.15;
+
 			break;
-		case 3: tax = MJ*.15+(income-MJ)*.28;
+		case 3: if(income >= MJ)
+				tax = MJ*.15+(income-MJ)*.28;
+			else tax = income*.15;
+
 			break;
-		case 4: tax = MS*.15+(income-MS)*.28;
+		case 4: if(income >= MS)
+				tax = MS*.15+(income-MS)*.28;
+			else tax = income*.15;
+
 			break;
 		}
 
