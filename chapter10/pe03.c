@@ -1,4 +1,4 @@
-/* pe02.c -- find the biggest on */
+/* pe03.c -- find the biggest on */
 #include <stdio.h>
 
 // maximum in the array --> mia
