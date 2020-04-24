@@ -1,0 +1,275 @@
+main	chapter02\fathm_ft.c	/^int main(void)$/;"	f
+main	chapter02\first.c	/^int main(void)$/;"	f
+main	chapter02\pe01.c	/^int main(void)$/;"	f
+main	chapter02\pe02.c	/^int main(void)$/;"	f
+YEAR	chapter02\pe03.c	4;"	d	file:
+main	chapter02\pe03.c	/^int main(void)$/;"	f
+deny	chapter02\pe04.c	/^void deny(void)$/;"	f
+jolly	chapter02\pe04.c	/^void jolly(void)$/;"	f
+main	chapter02\pe04.c	/^int main(void)$/;"	f
+br	chapter02\pe05.c	/^void br(void)$/;"	f
+ic	chapter02\pe05.c	/^void ic(void)$/;"	f
+main	chapter02\pe05.c	/^int main(void)$/;"	f
+main	chapter02\pe06.c	/^int main(void)$/;"	f
+main	chapter02\pe07.c	/^int main(void)$/;"	f
+p_s	chapter02\pe07.c	/^void p_s(void)$/;"	f
+main	chapter02\pe08.c	/^int main(void)$/;"	f
+one_three	chapter02\pe08.c	/^void one_three(void)$/;"	f
+two	chapter02\pe08.c	/^void two(void)$/;"	f
+main	chapter02\stillbad.c	/^int main(void)$/;"	f
+butler	chapter02\two_func.c	/^void butler(void)     \/* start of function definition *\/$/;"	f
+main	chapter02\two_func.c	/^int main(void)$/;"	f
+main	chapter03\altnames.c	/^int main(void)$/;"	f
+main	chapter03\badcount.c	/^int main(void)$/;"	f
+main	chapter03\bases.c	/^int main(void)$/;"	f
+main	chapter03\charcode.c	/^int main(void)$/;"	f
+main	chapter03\escape.c	/^int main(void)$/;"	f
+main	chapter03\floaterr.c	/^int main(void)$/;"	f
+main	chapter03\pe01.c	/^int main(void)$/;"	f
+main	chapter03\pe02.c	/^int main(void)$/;"	f
+main	chapter03\pe03.c	/^int main(void)$/;"	f
+main	chapter03\pe04.c	/^int main(void)$/;"	f
+main	chapter03\pe05.c	/^int main(void)$/;"	f
+main	chapter03\pe06.c	/^int main(void)$/;"	f
+main	chapter03\pe07_1.c	/^int main(void)$/;"	f
+main	chapter03\pe07_2.c	/^int main(void)$/;"	f
+main	chapter03\pe08.c	/^int main(void)$/;"	f
+main	chapter03\platinum.c	/^int main(void)$/;"	f
+main	chapter03\print1.c	/^int main(void)$/;"	f
+main	chapter03\print2.c	/^int main(void)$/;"	f
+main	chapter03\show_pt.c	/^int main(void)$/;"	f
+main	chapter03\toobig.c	/^int main(void)$/;"	f
+main	chapter03\typesize.c	/^int main(void)$/;"	f
+main	chapter04\defines.c	/^int main(void)$/;"	f
+main	chapter04\flags.c	/^int main(void)$/;"	f
+main	chapter04\floatcnv.c	/^int main(void)$/;"	f
+main	chapter04\floats.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter04\input.c	/^int main(void)$/;"	f
+PAGES	chapter04\intconv.c	3;"	d	file:
+WORDS	chapter04\intconv.c	4;"	d	file:
+main	chapter04\intconv.c	/^int main(void)$/;"	f
+main	chapter04\longstrg.c	/^int main(void)$/;"	f
+main	chapter04\pe01.c	/^int main(void)$/;"	f
+main	chapter04\pe02.c	/^int main(void)$/;"	f
+main	chapter04\pe03.c	/^int main(void)$/;"	f
+main	chapter04\pe04.c	/^int main(void)$/;"	f
+main	chapter04\pe05.c	/^int main(void)$/;"	f
+main	chapter04\pe06.c	/^int main(void)$/;"	f
+main	chapter04\pe07.c	/^int main(void)$/;"	f
+KM	chapter04\pe08.c	4;"	d	file:
+L	chapter04\pe08.c	3;"	d	file:
+main	chapter04\pe08.c	/^int main(void)$/;"	f
+PI	chapter04\pizza.c	3;"	d	file:
+main	chapter04\pizza.c	/^int main(void)$/;"	f
+PRAISEL	chapter04\praise1.c	3;"	d	file:
+main	chapter04\praise1.c	/^int main(void)$/;"	f
+PRAISE	chapter04\praise2.c	6;"	d	file:
+main	chapter04\praise2.c	/^int main(void)$/;"	f
+PI	chapter04\printout.c	3;"	d	file:
+main	chapter04\printout.c	/^int main(void)$/;"	f
+main	chapter04\prntval.c	/^int main(void)$/;"	f
+main	chapter04\skip2.c	/^int main(void)$/;"	f
+BLURB	chapter04\stringf.c	3;"	d	file:
+main	chapter04\stringf.c	/^int main(void)$/;"	f
+DENSITY	chapter04\talkback.c	4;"	d	file:
+main	chapter04\talkback.c	/^int main(void)$/;"	f
+main	chapter04\varwid.c	/^int main(void)$/;"	f
+PAGES	chapter04\width.c	3;"	d	file:
+main	chapter04\width.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter05\add_one.c	/^int main(void)$/;"	f
+main	chapter05\addemup.c	/^int main(void)	\/* finds sum of first 20 integers *\/$/;"	f
+MAX	chapter05\bottles.c	2;"	d	file:
+main	chapter05\bottles.c	/^int main(void)$/;"	f
+main	chapter05\divide.c	/^int main(void)$/;"	f
+main	chapter05\golf.c	/^int main(void)$/;"	f
+SEC_PER_MIN	chapter05\min_sec.c	3;"	d	file:
+main	chapter05\min_sec.c	/^int main(void)$/;"	f
+MPH	chapter05\pe01.c	3;"	d	file:
+main	chapter05\pe01.c	/^int main(void) {$/;"	f
+main	chapter05\pe02.c	/^int main(void) {$/;"	f
+DTW	chapter05\pe03.c	3;"	d	file:
+main	chapter05\pe03.c	/^int main(void) {$/;"	f
+CTE	chapter05\pe04.c	3;"	d	file:
+main	chapter05\pe04.c	/^int main(void) {$/;"	f
+main	chapter05\pe05.c	/^int main(void)  \/* finds sum of first 20 integers *\/       {                                                                  int count, sum; \/* declaration statement *\/$/;"	f
+main	chapter05\pe06.c	/^int main(void)  \/* finds sum of first 20 integers *\/$/;"	f
+cube	chapter05\pe07.c	/^void cube(double d) {$/;"	f
+main	chapter05\pe07.c	/^int main(void) {$/;"	f
+main	chapter05\pe08.c	/^int main(void) {$/;"	f
+CK	chapter05\pe09.c	/^const double CK = 273.16;$/;"	v
+D	chapter05\pe09.c	/^const double D = 9.0;$/;"	v
+M	chapter05\pe09.c	/^const double M = 32.0;$/;"	v
+Temperatures	chapter05\pe09.c	/^void Temperatures(double fahrenheit) {$/;"	f
+U	chapter05\pe09.c	/^const double U = 5.0;$/;"	v
+main	chapter05\pe09.c	/^int main(void) {$/;"	f
+main	chapter05\post_pre.c	/^int main(void)$/;"	f
+main	chapter05\rules.c	/^int main(void)$/;"	f
+M_PER_K	chapter05\running.c	/^const double M_PER_K = 0.62137;	\/\/ miles in a kilometer$/;"	v
+S_PER_H	chapter05\running.c	/^const int S_PER_H = 3600;	\/\/ second in an hour$/;"	v
+S_PER_M	chapter05\running.c	/^const int S_PER_M = 60;		\/\/ second in a minute$/;"	v
+main	chapter05\running.c	/^int main(void)$/;"	f
+ADJUST	chapter05\shoes1.c	3;"	d	file:
+main	chapter05\shoes1.c	/^int main(void)$/;"	f
+ADJUST	chapter05\shoes2.c	3;"	d	file:
+main	chapter05\shoes2.c	/^int main(void)$/;"	f
+main	chapter05\sizeof.c	/^int main(void)$/;"	f
+main	chapter05\squares.c	/^int main(void)$/;"	f
+SQUARES	chapter05\wheat.c	3;"	d	file:
+main	chapter05\wheat.c	/^int main(void)$/;"	f
+main	chapter06\pe01.c	/^int main(void)$/;"	f
+main	chapter06\pe02.c	/^int main(void)$/;"	f
+main	chapter06\pe03.c	/^int main(void)$/;"	f
+main	chapter06\pe04.c	/^int main(void)$/;"	f
+main	chapter06\pe05.c	/^int main(void)$/;"	f
+main	chapter06\pe06.c	/^int main(void)$/;"	f
+main	chapter06\pe07.c	/^int main(void)$/;"	f
+main	chapter06\pe08.c	/^int main(void)$/;"	f
+calc	chapter06\pe09.c	/^float calc(float a, float b)$/;"	f
+main	chapter06\pe09.c	/^int main(void)$/;"	f
+main	chapter06\pe10.c	/^int main(void)$/;"	f
+main	chapter06\pe11.c	/^int main(void)$/;"	f
+main	chapter06\pe12.c	/^int main(void)$/;"	f
+main	chapter06\pe13.c	/^int main(void)$/;"	f
+main	chapter06\pe14.c	/^int main(void)$/;"	f
+main	chapter06\pe15.c	/^int main(void)$/;"	f
+L_RATE	chapter06\pe16.c	3;"	d	file:
+R_RATE	chapter06\pe16.c	4;"	d	file:
+main	chapter06\pe16.c	/^int main(void)$/;"	f
+RATE	chapter06\pe17.c	3;"	d	file:
+main	chapter06\pe17.c	/^int main(void)$/;"	f
+MAX	chapter06\pe18.c	3;"	d	file:
+main	chapter06\pe18.c	/^int main(void)$/;"	f
+main	chapter06\zeno.c	/^int main(void)$/;"	f
+main	chapter07\colddays.c	/^int main(void)$/;"	f
+main	chapter07\cypher2.c	/^int main(void)$/;"	f
+main	chapter07\divisors.c	/^int main(void)$/;"	f
+main	chapter07\pe01.c	/^int main(void)$/;"	f
+main	chapter07\pe02.c	/^int main(void)$/;"	f
+main	chapter07\pe03.c	/^int main(void)$/;"	f
+STOP	chapter07\pe04.c	3;"	d	file:
+main	chapter07\pe04.c	/^int main(void)$/;"	f
+main	chapter07\pe05.c	/^int main(void)$/;"	f
+main	chapter07\pe06.c	/^int main(void)$/;"	f
+BP	chapter07\pe07.c	3;"	d	file:
+EP	chapter07\pe07.c	4;"	d	file:
+FR	chapter07\pe07.c	5;"	d	file:
+FTP	chapter07\pe07.c	9;"	d	file:
+FWT	chapter07\pe07.c	8;"	d	file:
+NR	chapter07\pe07.c	6;"	d	file:
+NTP	chapter07\pe07.c	10;"	d	file:
+RR	chapter07\pe07.c	7;"	d	file:
+main	chapter07\pe07.c	/^int main(void)$/;"	f
+ER	chapter07\pe08.c	3;"	d	file:
+FTR	chapter07\pe08.c	4;"	d	file:
+NTR	chapter07\pe08.c	5;"	d	file:
+RTR	chapter07\pe08.c	6;"	d	file:
+hello	chapter07\pe08.c	/^void hello(void)$/;"	f
+main	chapter07\pe08.c	/^int main(void)$/;"	f
+start	chapter07\pe08.c	/^void start(int num)$/;"	f
+isPrime	chapter07\pe09.c	/^int isPrime(int num)$/;"	f
+main	chapter07\pe09.c	/^int main(void)$/;"	f
+HH	chapter07\pe10.c	4;"	d	file:
+MJ	chapter07\pe10.c	5;"	d	file:
+MS	chapter07\pe10.c	6;"	d	file:
+S	chapter07\pe10.c	3;"	d	file:
+main	chapter07\pe10.c	/^int main(void)$/;"	f
+A	chapter07\pe11.c	3;"	d	file:
+B	chapter07\pe11.c	4;"	d	file:
+C	chapter07\pe11.c	5;"	d	file:
+DIS	chapter07\pe11.c	6;"	d	file:
+main	chapter07\pe11.c	/^int main(void)$/;"	f
+STOP	chapter07\wordcnt.c	5;"	d	file:
+main	chapter07\wordcnt.c	/^int main(void)$/;"	f
+bad_limits	chapter08\checking.c	/^bool bad_limits(long begin, long end,$/;"	f
+get_long	chapter08\checking.c	/^long get_long(void)$/;"	f
+main	chapter08\checking.c	/^int main(void)$/;"	f
+sum_squares	chapter08\checking.c	/^double sum_squares(long a, long b)$/;"	f
+main	chapter08\echo_eof.c	/^int main(void)$/;"	f
+hanoi	chapter08\hanoi.c	/^void hanoi(int n, char a, char b, char c)$/;"	f
+main	chapter08\hanoi.c	/^int main(void)$/;"	f
+count	chapter08\menuette.c	/^void count(void)$/;"	f
+get_choice	chapter08\menuette.c	/^char get_choice(void)$/;"	f
+get_first	chapter08\menuette.c	/^char get_first(void)$/;"	f
+get_int	chapter08\menuette.c	/^int get_int(void)$/;"	f
+main	chapter08\menuette.c	/^int main(void)$/;"	f
+main	chapter08\pe01.c	/^int main(void)$/;"	f
+main	chapter08\pe02.c	/^int main(void)$/;"	f
+main	chapter08\pe03.c	/^int main(void)$/;"	f
+main	chapter08\pe04.c	/^int main(void)$/;"	f
+main	chapter08\pe05.c	/^int main(void)$/;"	f
+getFloat	chapter08\pe08.c	/^float getFloat(void)$/;"	f
+hello	chapter08\pe08.c	/^void hello(void)$/;"	f
+main	chapter08\pe08.c	/^int main(void)$/;"	f
+operat	chapter08\pe08.c	/^void operat(float n, float m, char ch)$/;"	f
+main	chapter09\binary.c	/^int main(void)$/;"	f
+to_binary	chapter09\binary.c	/^void to_binary(unsigned long n)	\/* recursive function *\/$/;"	f
+fact	chapter09\factor.c	/^long fact(int n)	\/\/ loop-based function$/;"	f
+main	chapter09\factor.c	/^int main(void)$/;"	f
+rfact	chapter09\factor.c	/^long rfact(int n)	\/\/ recursive function$/;"	f
+getnights	chapter09\hotel\hotel.c	/^int getnights(void)$/;"	f
+menu	chapter09\hotel\hotel.c	/^int menu(void)$/;"	f
+showprice	chapter09\hotel\hotel.c	/^void showprice(double rate, int nights)$/;"	f
+DISCOUNT	chapter09\hotel\hotel.h	7;"	d
+HOTEL1	chapter09\hotel\hotel.h	3;"	d
+HOTEL2	chapter09\hotel\hotel.h	4;"	d
+HOTEL3	chapter09\hotel\hotel.h	5;"	d
+HOTEL4	chapter09\hotel\hotel.h	6;"	d
+QUIT	chapter09\hotel\hotel.h	2;"	d
+STARS	chapter09\hotel\hotel.h	9;"	d
+main	chapter09\hotel\usehotel.c	/^int main(void)$/;"	f
+main	chapter09\pe01.c	/^int main(void)$/;"	f
+min	chapter09\pe01.c	/^double min(double x, double y)$/;"	f
+chline	chapter09\pe02.c	/^void chline(char ch, int i, int j)$/;"	f
+main	chapter09\pe02.c	/^int main(void)$/;"	f
+har	chapter09\pe04.c	/^double har(double a, double b)$/;"	f
+main	chapter09\pe04.c	/^int main(void)$/;"	f
+larger_of	chapter09\pe05.c	/^void larger_of(double * x, double * y)$/;"	f
+main	chapter09\pe05.c	/^int main(void)$/;"	f
+dsort	chapter09\pe06.c	/^void dsort(double * a, double * b, double * c)$/;"	f
+main	chapter09\pe06.c	/^int main(void)$/;"	f
+main	chapter09\pe07.c	/^int main(void)$/;"	f
+readIn	chapter09\pe07.c	/^int readIn(char ch)$/;"	f
+main	chapter09\pe08.c	/^int main(void)$/;"	f
+power	chapter09\pe08.c	/^double power(double base, int p)$/;"	f
+main	chapter09\pe09.c	/^int main(void)$/;"	f
+power	chapter09\pe09.c	/^double power(double base, int p)$/;"	f
+base_n	chapter09\pe10.c	/^long base_n(int raw, int base)$/;"	f
+main	chapter09\pe10.c	/^int main(void)$/;"	f
+Fibonacci	chapter09\pe11.c	/^long Fibonacci(int month)$/;"	f
+main	chapter09\pe11.c	/^int main(void)$/;"	f
+main	chapter09\recur.c	/^int main(void)$/;"	f
+up_and_down	chapter09\recur.c	/^void up_and_down(int n)$/;"	f
+MONTHS	chapter10\pe01.c	4;"	d	file:
+YEARS	chapter10\pe01.c	3;"	d	file:
+main	chapter10\pe01.c	/^int main(void)$/;"	f
+copy_arr	chapter10\pe02.c	/^void copy_arr(double target[], double source[], int len)$/;"	f
+copy_ptr	chapter10\pe02.c	/^void copy_ptr(double *target, double *source, int len)$/;"	f
+copy_ptrs	chapter10\pe02.c	/^void copy_ptrs(double *target, double *source, double *end)$/;"	f
+main	chapter10\pe02.c	/^int main(void)$/;"	f
+main	chapter10\pe03.c	/^int main(void)$/;"	f
+mia	chapter10\pe03.c	/^int mia(int array[], int len)$/;"	f
+iom	chapter10\pe04.c	/^int iom(double array[], int len)$/;"	f
+main	chapter10\pe04.c	/^int main(void)$/;"	f
+LEN	chapter10\pe05.c	8;"	d	file:
+dbls	chapter10\pe05.c	/^double dbls(double * arr, int len)$/;"	f
+main	chapter10\pe05.c	/^int main(void)$/;"	f
+LEN	chapter10\pe06.c	3;"	d	file:
+main	chapter10\pe06.c	/^int main(int argc, char const *argv[])$/;"	f
+rev	chapter10\pe06.c	/^void rev(double * arr, int len)$/;"	f
+COL	chapter10\pe07.c	5;"	d	file:
+ROW	chapter10\pe07.c	4;"	d	file:
+copy_arr	chapter10\pe07.c	/^void copy_arr(double target[], double source[], int len)$/;"	f
+main	chapter10\pe07.c	/^int int main(int argc, char const *argv[])$/;"	f
+MONTHS	chapter10\rain.c	3;"	d	file:
+YEARS	chapter10\rain.c	4;"	d	file:
+main	chapter10\rain.c	/^int main(void)$/;"	f
+COLS	chapter10\vararr2d.c	4;"	d	file:
+ROWS	chapter10\vararr2d.c	3;"	d	file:
+main	chapter10\vararr2d.c	/^int main(void)$/;"	f
+sum2d	chapter10\vararr2d.c	/^int sum2d(int rows, int cols, int ar[rows][cols])$/;"	f
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
