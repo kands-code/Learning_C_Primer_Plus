@@ -1,7 +1,11 @@
-/* rain.c -- finds yearly totals, yearly average, and monthly average for serveral years of rainfall data */
+/* pe12.c -- rewrite rain.c to functionally split program */
 #include <stdio.h>
 #define MONTHS 12
 #define YEARS 5
+
+void display(float * arr, int row, int col);
+
+
 int main(void)
 {
 	// initializing rainfall data for 2010-2014
