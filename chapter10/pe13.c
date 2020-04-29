@@ -49,7 +49,7 @@ void getEAverage(double (*arr)[N], int row, double source[R])
 	double sum;
 	for (i = 0; i < row; ++i)
 	{
-		for (sum = 0, j = 0; i < N; ++j)
+		for (sum = 0, j = 0; j < N; ++j)
 		{
 			sum += arr[i][j];
 		}
@@ -63,7 +63,7 @@ double getAverage(double (*arr)[N], int row)
 	double sum;
 	for (i = 0; i < row; ++i)
 	{
-		for (j = 0; i < N; ++j)
+		for (j = 0; j < N; ++j)
 		{
 			sum += arr[i][j];
 		}
