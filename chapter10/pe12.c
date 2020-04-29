@@ -3,8 +3,8 @@
 #define MONTHS 12
 #define YEARS 5
 
-void display(float * arr, int row, int col);
-
+void year_average(const float (*arr)[MONTHS], int year);
+void month_average(const float (*arr)[MONTHS], int year);
 
 int main(void)
 {
@@ -17,33 +17,45 @@ int main(void)
 		{7.2, 9.9, 8.4, 3.3, 1.2, 0.8, 0.4, 0.0, 0.6, 1.7, 4.3, 6.2},
 		{7.6, 5.6, 3.8, 2.8, 3.8, 0.2, 0.0, 0.0, 0.0, 1.3, 2.6, 5.2}
 	};
-	int year, month;
-	float subtot, total;
+
+	year_average(rain, YEARS);
+	month_average(rain, YEARS);
+	
+	return 0;
+}
+
+void year_average(const float (*arr)[MONTHS], int year)
+{
+	int y, m;
+	float subtot,total;
 
 	printf(" YEAR		RAINFALL (inches)\n");
-	for (year = 0, total = 0; year < YEARS; year++)
+	for (y = 0, total = 0; y < year; y++)
 	{	// for each year, sum rainfall for each month
-		for (month = 0, subtot = 0; month < MONTHS; month++)
+		for (m = 0, subtot = 0; m < MONTHS; m++)
 		{
-			subtot += rain[year][month];
+			subtot += arr[y][m];
 		}
-		printf("%5d %15.1f\n", 2010 + year, subtot);
+		printf("%5d %15.1f\n", 2010 + y, subtot);
 		total += subtot; // total for all years
 	}
+	printf("\nThe yearly average is %.1f inches.\n\n", total / year);
+}
 
-	printf("\nThe yearly average is %.1f inches.\n\n", total / YEARS);
+void month_average(const float (*arr)[MONTHS], int year)
+{
+	int y, m;
+	float subtot,total;
+
 	printf("MONTHLY AVERAHES:\n\n");
 	printf(" Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\n");
-
-	for (month = 0; month < MONTHS; month++)
+	for (m = 0; m < MONTHS; m++)
 	{	// for each month, sum rainfall over years
-		for (year = 0, subtot = 0; year < YEARS; year++)
+		for (y = 0, subtot = 0; y < year; y++)
 		{
-			subtot += rain[year][month];
+			subtot += arr[y][m];
 		}
-		printf("%4.1f", subtot / YEARS);
+		printf("%4.1f", subtot / year);
 	}
 	printf("\n"); // also putchar('\n');
-
-	return 0;
 }
