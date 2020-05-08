@@ -5,7 +5,7 @@ double power(double, int);
 
 int main(void)
 {
-	int p, i, n, t, s;
+	int p, n, t;
 	double base, exp;
 
 	printf("Enter q to quit, r to run: ");
@@ -45,8 +45,7 @@ int main(void)
 
 double power(double base, int p)
 {
-	int i;
-	double exp = 1, temp = 1;
+	double exp = 1;
 	if (p > 0)
 	{
 		return power(base, p-1) * base;
