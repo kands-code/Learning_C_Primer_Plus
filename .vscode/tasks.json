@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "g++_build",
+        "command": "S:\\TDM_GCC\\bin\\g++.exe",
+        "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
+        "options": {
+          "cwd": "S:\\TDM_GCC\\bin"
+        },
+        "problemMatcher": ["$gcc"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
