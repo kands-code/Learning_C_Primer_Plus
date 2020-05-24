@@ -19,6 +19,7 @@ int main(void)
 
 void fit(char *string, unsigned int size)
 {
+    // uses the strlen() function to get the length of the string
     if (strlen(string) > size)
         string[size] = '\0';
 }
