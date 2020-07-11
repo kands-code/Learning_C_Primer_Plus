@@ -1,4 +1,4 @@
-/* pe08.c -- write the function string_in() */
+/* pe08.c -- check string */
 #include <stdio.h>
 
 char * string_in(char * dest, char * str);
