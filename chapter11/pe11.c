@@ -127,7 +127,7 @@ void copy(char dest[MAX_V][MAX_L], char src[MAX_V][MAX_L], int num)
 void animation(void)
 {
 	int i = 0;
-	printf("Please wait 5s ");
+	printf("Please wait 5s [               ]\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
 	for (i = 0; i < 5; i++)
 	{
 #ifdef WIN32
@@ -185,7 +185,7 @@ void print_ascii_list(char str_list[MAX_V][MAX_L], int num)
 	int i, j;
 	char tmp[MAX_L];
 	for (i = 0; i < num - 1; i++)
-		for (j = i; j < num; j++)
+		for (j = i + 1; j < num; j++)
 			if (strcmp(str_list[i], str_list[j]) > 0)
 			{
 				strcpy(tmp, str_list[i]);
@@ -201,7 +201,7 @@ void print_length_list(char str_list[MAX_V][MAX_L], int num)
 	int i, j;
 	char tmp[MAX_L];
 	for (i = 0; i < num - 1; i++)
-		for (j = i; j < num; j++)
+		for (j = i + 1; j < num; j++)
 			if (strlen(str_list[i]) > strlen(str_list[j]))
 			{
 				strcpy(tmp, str_list[i]);
@@ -214,34 +214,46 @@ void print_length_list(char str_list[MAX_V][MAX_L], int num)
 /* print the strings in the first word length order */
 void print_first_word_list(char str_list[MAX_V][MAX_L], int num)
 {
-	int inword = 0, i, j, cnt[num];
+	int inword = 0, i, j, t, cnt[num];
+	for (i = 0; i < num; i++)
+		cnt[i] = 0;
 	char tmp[MAX_L];
 
 	// count
 	for (i = 0; i < num; i++)
 		for (j = 0; j < MAX_L; j++)
 		{
-			if (!inword && !isspace(str_list[i][j]))
+			if (!inword && !(isspace(str_list[i][j]) || str_list[i][j] == '\0'))
 			{
 				inword = 1;
 				cnt[i]++;
 			}
-			else if (inword && !isspace(str_list[i][j]))
+			else if (inword && !(isspace(str_list[i][j]) || str_list[i][j] == '\0'))
 				cnt[i]++;
-			else if (!inword && isspace(str_list[i][j]))
+			else if (!inword && (isspace(str_list[i][j]) || str_list[i][j] == '\0'))
 				continue;
 			else
+			{
+				inword = 0;
 				break;
+			}
 		}
+	/*
+	for (i = 0; i < num; i++)
+		printf("%d\n", cnt[i]);
+	*/
 
 	// sort
 	for (i = 0; i < num - 1; i++)
-		for (j = i; j < num; j++)
+		for (j = i + 1; j < num; j++)
 			if (cnt[i] > cnt[j])
 			{
 				strcpy(tmp, str_list[i]);
+				t = cnt[i];
 				strcpy(str_list[i], str_list[j]);
+				cnt[i] = cnt[j];
 				strcpy(str_list[j], tmp);
+				cnt[j] = t;
 			}
 
 	// print
