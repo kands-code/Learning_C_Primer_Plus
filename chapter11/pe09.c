@@ -1,18 +1,7 @@
 /* pe09.c -- reverse the string */
 #include <stdio.h>
 
-void reverse(char * str)
-{
-	char t;
-	int i, len = 0;
-	for (i = 0; *(str + i) != '\0'; i++) len++;
-	for (i = 0; i < len / 2; i++)
-	{
-		t = str[i];
-		str[i] = str[len - i - 1];
-		str[len - i - 1] = t;
-	}
-}
+void reverse(char * str);
 
 int main(void)
 {
@@ -32,3 +21,17 @@ int main(void)
 
 	return 0;
 }
+
+void reverse(char * str)
+{
+	char t;
+	int i, len = 0;
+	for (i = 0; *(str + i) != '\0'; i++) len++;
+	for (i = 0; i < len / 2; i++)
+	{
+		t = str[i];
+		str[i] = str[len - i - 1];
+		str[len - i - 1] = t;
+	}
+}
+
