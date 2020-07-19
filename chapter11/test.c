@@ -3,6 +3,6 @@
 
 int main(void)
 {
-	printf("%d\n", isspace('\0'));
+	printf("%d\n", isdigit('\0'));
 	return 0;
 }
