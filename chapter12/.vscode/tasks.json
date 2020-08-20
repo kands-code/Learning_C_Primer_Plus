@@ -3,8 +3,8 @@
     "tasks": [
       {
         "type": "shell",
-        "label": "g++_build",
-        "command": "C:\\TDM-GCC-64\\bin\\g++.exe",
+        "label": "gcc_build",
+        "command": "C:\\TDM-GCC-64\\bin\\gcc.exe",
         "args": ["-g", "${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"],
         "options": {
           "cwd": "C:\\TDM-GCC-64\\bin"

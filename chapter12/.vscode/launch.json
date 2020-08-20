@@ -23,7 +23,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "g++_build"
+            "preLaunchTask": "gcc_build"
         }
     ]
 }
