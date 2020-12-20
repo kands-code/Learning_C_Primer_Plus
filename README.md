@@ -8,5 +8,5 @@ Hope I can help you!
 
 This is a record of my study
 
-> Because of my busy study, this repo probably be given up, sorry!
+> Because of my busy study, this repo probably will be given up, sorry!
 
