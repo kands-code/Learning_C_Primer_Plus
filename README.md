@@ -7,3 +7,6 @@ The file "pexx.c" is the code of Programming Exercises. It's not the best but ri
 Hope I can help you!
 
 This is a record of my study
+
+> Because of my busy study, this repo probably be given up, sorry!
+
