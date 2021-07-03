@@ -1,4 +1,4 @@
-/* r_driver0.c -- test the rand0() function */
+/* r_drive0.c -- test the rand0() function */
 /* compile with rand0.c                     */
 #include <stdio.h>
 extern int rand0(void);
