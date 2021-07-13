@@ -4,11 +4,11 @@
 extern int rand0(void);
 
 int main(void) {
-    int count;
+  int count;
 
-    for (count = 0; count < 5; count++) {
-        printf("%d\n", rand0());
-    }
+  for (count = 0; count < 5; count++) {
+    printf("%d\n", rand0());
+  }
 
-    return 0;
+  return 0;
 }
